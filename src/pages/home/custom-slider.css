@@ -1,0 +1,26 @@
+/* custom-slider.css */
+/* Change the color of the Next button */
+.slick-next {
+    background-color: #2ae619; /* Change this to your desired color */
+    color: #fff; /* Change this to the text color you prefer */
+    border: none;
+    border-radius: 50%;
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    font-size: 20px; /* Adjust the font size as needed */
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    right: 10px; /* Adjust the right spacing as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+    transition: background-color 0.3s ease-in-out; /* Add a transition for a smoother color change */
+  }
+  
+  /* Change the color of the Next button on hover */
+  .slick-next:hover {
+    background-color: #2ae619; /* Change this to your desired hover color */
+  }
+  
